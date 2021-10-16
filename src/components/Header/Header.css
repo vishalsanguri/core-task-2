@@ -1,0 +1,24 @@
+.heading{
+    font-size:43px;
+    font-weight:normal;
+    font-style:italic;
+    font-weight:bold;
+    letter-spacing:0.05em;
+}
+.headre-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid red;
+}
+.head-comp-cart{
+    background-color: pink;
+    width: 40%;
+}
+.cart-logo{
+    display: flex;
+    justify-content: space-around;
+}
+.head-comp-search{
+    background-color: red;
+}
