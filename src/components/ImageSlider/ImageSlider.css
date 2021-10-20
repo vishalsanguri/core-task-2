@@ -1,0 +1,139 @@
+.holder-images{
+    margin-top: 40px;
+    --width: 100vw;
+    height: 400px;
+    overflow: hidden;
+}
+.scroll{
+    width: calc(var(--width)*6);
+    animation: animation1 100s  infinite ease-in-out;
+    height: 100%;
+}
+.child1{
+    width: var(--width) ;
+    display: inline-block;
+    height: 100%;
+    background:url("../../Assests/Capture.PNG") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.child2{
+    width: var(--width) ;
+    display: inline-block;
+    height: 100%;
+    background:url("../../Assests/Capture.PNG") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.child3{
+    width: var(--width) ;
+    display: inline-block;
+    height: 100%;
+    background:url("../../Assests/Capture.PNG") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.child4{
+    width: var(--width) ;
+    display: inline-block;
+    height: 100%;
+    background: url("../../Assests/Capture.PNG") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.child5{
+    width: var(--width) ;
+    display: inline-block;
+    height: 100%;
+    background:url("../../Assests/Capture.PNG") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.child6{
+    width: var(--width) ;
+    display: inline-block;
+    height: 100%;
+    background:url("../../Assests/Capture.PNG") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.absolute{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes animation1 {
+    0%{ 
+        transform: translateX(0);
+    }
+    9%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(-100vw);
+    }
+    19%{
+        transform: translateX(-100vw);
+    }
+    20%{
+        transform: translateX(-200vw);
+    }
+    29%{
+        transform: translateX(-200vw);
+    }
+    30%{
+        transform: translateX(-300vw);
+    }
+    39%{
+        transform: translateX(-300vw);
+    }
+    40%{
+        transform: translateX(-400vw);
+    }
+    49%{
+        transform: translateX(-400vw);
+    }
+    50%{
+        transform: translateX(-500vw);
+    }
+    59%{
+        transform: translateX(-500vw);
+    }
+    60%{
+        transform: translateX(-400vw);
+    }
+    69%{
+        transform: translateX(-400vw);
+    }
+    70%{
+        transform: translateX(-300vw);
+    }
+    79%{
+        transform: translateX(-300vw);
+    }
+    80%{
+        transform: translateX(-200vw);
+    }
+    89%{
+        transform: translateX(-200vw);
+    }
+    90%{
+        transform: translateX(-100vw);
+    }
+    99%{
+        transform: translateX(-100vw);
+    }
+}
+@media screen and (max-width:800px) {
+    .holder-images{
+        height: 400px;
+    }
+}
+@media screen and (max-width:500px) {
+    .holder-images{
+        height: 200px;
+    }
+}

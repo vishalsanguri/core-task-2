@@ -9,16 +9,45 @@
     display: flex;
     align-items: center;
     width: 100%;
-    border: 1px solid red;
 }
 .head-comp-cart{
-    background-color: pink;
     width: 40%;
 }
 .cart-logo{
+    height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
     display: flex;
     justify-content: space-around;
 }
 .head-comp-search{
+    display: flex;
+    justify-content: center;
+}
+.head-comp-search > input{
+    width: 87%;
+    background-color: black;
+    color: white;
+    padding:0px 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 40px;
+}
+.head-comp-search > input:focus{
+    border: 1px solid transparent;
+}
+.head-comp-search > input:hover{
+background-color: pink;
+}
+.asdfg{
+    height: 40px;
+    width: 100px;
     background-color: red;
+    border-radius: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
 }
